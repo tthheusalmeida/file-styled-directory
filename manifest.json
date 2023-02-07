@@ -1,0 +1,11 @@
+{
+  "name": "File Styled Directory",
+  "description": "Extension that apply css styles at file directory.",
+  "author": "Matheus Henrique dos Santos Almeida",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "popup/index.html",
+    "default_icon": "images/logo.png"
+  }
+}
