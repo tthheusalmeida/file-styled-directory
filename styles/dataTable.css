@@ -29,6 +29,9 @@ h1 {
 }
 
 body {
+  display: flex;
+  flex-direction: column;
+
   padding: 0;
   margin: 0 var(--size-lg);
 
@@ -37,9 +40,36 @@ body {
   background-color: var(--background);
 }
 
+#parentDirLinkBox,
+#parentDirLinkBox:active,
+#parentDirLinkBox:visited {
+  align-self: start;
+
+  margin: var(--size-nano) 0 !important;
+  padding: var(--size-nano) var(--size-xs) !important;
+  border-radius: var(--size-sm);
+  background-color: var(--table-row-background);
+
+}
+
+#parentDirLinkBox:hover {
+  background: var(--hover);
+}
+
+#parentDirLinkBox a,
+#parentDirLinkBox a:active,
+#parentDirLinkBox a:visited {
+  color: var(--font-color);
+}
+
+a,
+a:active,
+a:visited {
+  text-decoration: none !important;
+}
+
 a {
   color: var(--font-color);
-  text-decoration: none;
 }
 
 a:active {
@@ -71,6 +101,10 @@ tbody {
 tbody tr {
   height: var(--size-sm);
   background: var(--table-row-background);
+}
+
+tbody tr:hover {
+  background: var(--hover);
 }
 
 tbody td {

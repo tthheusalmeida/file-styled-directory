@@ -17,7 +17,8 @@
   "content_scripts": [
     {
       "matches": ["file:///*"],
-      "css": ["styles/dataTable.css"]
+      "css": ["styles/dataTable.css"],
+      "js": ["scripts/dataTable.js"]
     } 
   ]
 }
