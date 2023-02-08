@@ -1,0 +1,22 @@
+#toggle-theme-button {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  border-radius: 7px;
+  border: none;
+
+  cursor: pointer;
+  padding: 0;
+  height: var(--size-sm);
+  width: var(--size-md);
+  
+  background: var(--table-row-background);
+  border-radius: var(--size-quark);
+
+  transition: background .5s;
+}
+
+#toggle-theme-button:hover {
+  background: var(--hover);
+}
+

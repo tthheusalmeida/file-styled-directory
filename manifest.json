@@ -17,7 +17,14 @@
   "content_scripts": [
     {
       "matches": ["file:///*"],
-      "css": ["styles/dataTable.css"]
+      "css": [
+        "styles/main.css",
+        "styles/dataTable.css",
+        "styles/themeColor.css"
+      ],
+      "js": [
+        "scripts/themeColor.js"
+      ]
     } 
   ]
 }
