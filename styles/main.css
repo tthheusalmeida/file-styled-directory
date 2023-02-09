@@ -47,3 +47,21 @@ body {
   color: var(--font-color);
   background-color: var(--background);
 }
+
+a,
+a:active,
+a:visited {
+  text-decoration: none !important;
+}
+
+a {
+  color: var(--font-color);
+}
+
+a:active {
+  color: white;
+}
+
+a:visited {
+  color: var(--visited);
+}

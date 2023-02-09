@@ -2,7 +2,7 @@
   position: absolute;
   top: 8px;
   right: 10px;
-  border-radius: 7px;
+  border-radius: var(--size-nano);
   border: none;
 
   cursor: pointer;

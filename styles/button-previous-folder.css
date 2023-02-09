@@ -1,0 +1,23 @@
+#parentDirLinkBox,
+#parentDirLinkBox:active,
+#parentDirLinkBox:visited {
+  align-self: start;
+  height: auto;
+  width: auto;
+  padding: 0 !important;
+  cursor: pointer;  
+  border-radius: var(--size-nano);
+  background-color: transparent;
+  text-align: center;
+  text-justify: center;
+}
+
+#parentDirLinkBox a,
+#parentDirLinkBox a:active,
+#parentDirLinkBox a:visited {
+  color: var(--font-color);
+}
+
+#parentDirLink {
+  display: block;
+}

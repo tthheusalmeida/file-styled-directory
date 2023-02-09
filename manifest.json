@@ -19,11 +19,13 @@
       "matches": ["file:///*"],
       "css": [
         "styles/main.css",
-        "styles/dataTable.css",
-        "styles/themeColor.css"
+        "styles/data-table.css",
+        "styles/button-toggle-theme.css",
+        "styles/button-previous-folder.css"
       ],
       "js": [
-        "scripts/themeColor.js"
+        "scripts/buttonToggleTheme.js",
+        "scripts/buttonPreviousFolder.js"
       ]
     } 
   ]
