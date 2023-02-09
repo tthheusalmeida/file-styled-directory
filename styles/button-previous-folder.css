@@ -2,14 +2,13 @@
 #parentDirLinkBox:active,
 #parentDirLinkBox:visited {
   align-self: start;
-  height: auto;
-  width: auto;
+  height: 22px;
+  width: 100%;
   padding: 0 !important;
   cursor: pointer;  
   border-radius: var(--size-nano);
   background-color: transparent;
-  text-align: center;
-  text-justify: center;
+  text-align: start;
 }
 
 #parentDirLinkBox a,
