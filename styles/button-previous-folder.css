@@ -1,8 +1,13 @@
+#parentDirLinkBox {
+  margin-bottom: 10px;
+  padding-bottom: 0 !important;
+};
+
 #parentDirLinkBox,
 #parentDirLinkBox:active,
 #parentDirLinkBox:visited {
   align-self: start;
-  height: 22px;
+  height: 20px;
   width: 100%;
   padding: 0 !important;
   cursor: pointer;  
@@ -18,5 +23,14 @@
 }
 
 #parentDirLink {
+  background: var(--table-row-background);
+  border-radius: var(--size-nano);
+  padding: var(--size-quark) var(--size-nano) 0 var(--size-nano);
+  width: 20px;
   display: none;
+}
+
+#parentDirLink i {
+  fill: currentColor;
+  height: 24px;
 }
