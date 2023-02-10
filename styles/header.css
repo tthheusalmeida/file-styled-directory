@@ -1,0 +1,7 @@
+#header {
+  border: 0;
+  height: 38px !important;
+  padding: var(--size-lg) 0 var(--size-md);
+  margin-bottom: var(--size-nano);
+  font-size: var(--font-size-xl) !important;
+}

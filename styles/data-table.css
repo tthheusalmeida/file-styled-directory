@@ -1,8 +1,3 @@
-#header {
-  border: 0;
-  padding: var(--size-lg) 0 var(--size-md);
-}
-
 table {
   width: 100%;
 }

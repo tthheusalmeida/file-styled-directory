@@ -15,14 +15,15 @@
   --font-size-lg: 24px;
   --font-size-xl: 32px;
 
+  /* White Theme 
   --background: #FFFFFF;
   --font-color:  #1E1E1E;
   --table-row-background: #E8E7EC;
   --hover: #F2F2F2;
   --visited: #828486;
-}
+  */
 
-[data-color-theme='dark'] {
+  /* Black Theme */
   --background: #1A1E21;
   --font-color:  #CACED1;
   --table-row-background: #292A2E;
