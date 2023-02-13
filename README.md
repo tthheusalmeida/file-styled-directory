@@ -47,7 +47,7 @@ The project was developed with the following technologies:
 - Extract it.
 - Open Google Chrome
 - Go to `chrome://extensions/` url.
-- Click on `Load compacted extension`.
+- Click on `Load unpacked`.
 - Select folder where you extracted the extension.
 - Access `file:///C:/` url, or another one that has your main directory, for exemple `file:///D:/` url.
 - Enjoy!
