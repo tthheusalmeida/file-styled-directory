@@ -15,9 +15,8 @@
   --font-size-lg: 24px;
   --font-size-xl: 32px;
 
-  --purple: #A939FF;
   --white: #ffffff;
-  --cyan: #01D4FA;
+  --black: #000000;
 }
 
 body {
@@ -33,21 +32,12 @@ body {
   height: 72px;
   width: 248px;
 
-  background-color: var(--cyan);
-  background-image: linear-gradient(160deg, var(--purple) 0%, var(--cyan) 100%);
+  background-color: var(--white);
 }
 
 .popup__logo {
   width: 42px;
   height: 42px;
-  -webkit-filter: drop-shadow(0.3px 0.5px 0 var(--white))
-                  drop-shadow(-0.3px 0.5px 0 var(--white))
-                  drop-shadow(0.5px -0.1px 0 var(--white))
-                  drop-shadow(-0.3px -0.3px 0 var(--white));
-  filter: drop-shadow(0.3px 0.5px 0 var(--white))
-          drop-shadow(-0.3px 0.5px 0 var(--white))
-          drop-shadow(0.5px -0.1px 0 var(--white))
-          drop-shadow(-0.3px -0.3px 0 var(--white));
 }
 
 .popup__title {
@@ -57,5 +47,5 @@ body {
   
   width: auto;
   margin-left: var(--size-nano);
-  color: var(--white);
+  color: var(--black);
 }
