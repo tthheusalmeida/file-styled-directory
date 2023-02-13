@@ -36,21 +36,21 @@ The project was developed with the following technologies:
 
 ### 🖥️ Desktop
 <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
-  <img src="https://github.com/tthheusalmeida/file-styled-directory/blob/images/inAction.JPG" width="800">
+  <img src="https://github.com/tthheusalmeida/file-styled-directory/blob/main/images/inAction.JPG" width="800">
 </div>
 
 <a id="try-project"></a>
 
 ## ⚙️ Try project
 
-First clone the project:
-
-git clone https://github.com/tthheusalmeida/zelda-project.git
-
-
-Open ``index.html`` file,
-
-Enjoy!
+- First clone the project: `git clone https://github.com/tthheusalmeida/zelda-project.git`.
+- Extract it.
+- Open Google Chrome
+- Go to `chrome://extensions/` url.
+- Click on `Load compacted extension`.
+- Select folder where you extracted the extension.
+- Access `file:\\\` url.
+- Enjoy!
 
 <a id="how-to-contribute"></a>
 
