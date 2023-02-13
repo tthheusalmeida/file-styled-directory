@@ -49,7 +49,7 @@ The project was developed with the following technologies:
 - Go to `chrome://extensions/` url.
 - Click on `Load compacted extension`.
 - Select folder where you extracted the extension.
-- Access `file:\\\` url.
+- Access `file:///C:/` url, or another one that has your main directory, for exemple `file:///D:/` url.
 - Enjoy!
 
 <a id="how-to-contribute"></a>
