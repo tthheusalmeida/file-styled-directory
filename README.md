@@ -43,7 +43,7 @@ The project was developed with the following technologies:
 
 ## ⚙️ Try project
 
-- First clone the project: `git clone https://github.com/tthheusalmeida/zelda-project.git`.
+- First clone the project: `https://github.com/tthheusalmeida/file-styled-directory.git`.
 - Extract it.
 - Open Google Chrome
 - Go to `chrome://extensions/` url.
